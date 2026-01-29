@@ -46,7 +46,11 @@ public class Question_6_Windows_10_Install {
         // Return false if the computer can't be upgraded.
 
         // TODO remove this line, and replace with your own code.
-        return false;
+        boolean compatibleSystem = currentOS.equalsIgnoreCase("Windows 7") ||currentOS.equals("Windows 8");
+        boolean compatibleProcessor = processorSpeed >= 1;
+        boolean compatibleRam = ram >= 2;
+
+        return compatibleSystem && compatibleProcessor && compatibleRam;
 
     }
     

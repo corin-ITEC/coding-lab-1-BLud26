@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 5">
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_5_Parcel_Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_5_Parcel_Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_6_Windows_10_Install.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_6_Windows_10_Install.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +98,13 @@
     "Application.Question_3_NASA_Astronauts.executor": "Run",
     "Application.Question_4_Mail_Prices.executor": "Run",
     "Application.Question_5_Parcel_Delivery.executor": "Run",
+    "Application.Question_6_Windows_10_Install.executor": "Run",
     "JUnit.Question_1_MilesFromMCTC_Test.executor": "Run",
     "JUnit.Question_2_QuizQuestion_Test.executor": "Run",
     "JUnit.Question_3_NASAAstronaut_Test.executor": "Run",
     "JUnit.Question_4_MailPrices_Test.executor": "Run",
     "JUnit.Question_5_ParcelDelivery_Test.executor": "Run",
+    "JUnit.Question_6_Windows10Upgrade_Test.testWin10UpgradeCanUpgrade.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -127,7 +130,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Question_5_ParcelDelivery_Test">
+  <component name="RunManager" selected="JUnit.Question_6_Windows10Upgrade_Test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -274,8 +277,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="Question_4_Mail_Prices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_Mail_Prices" />
+    <configuration name="Question_5_Parcel_Delivery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_5_Parcel_Delivery" />
       <module name="Java_Auto_Grader" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -288,8 +291,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_5_Parcel_Delivery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_5_Parcel_Delivery" />
+    <configuration name="Question_6_Windows_10_Install" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_6_Windows_10_Install" />
       <module name="Java_Auto_Grader" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -308,38 +311,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_3_NASAAstronaut_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week_1" />
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_3_NASAAstronaut_Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_4_MailPrices_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week_1" />
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_MailPrices_Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question_5_ParcelDelivery_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Auto_Grader" />
       <extension name="coverage">
@@ -351,6 +322,39 @@
       <option name="PACKAGE_NAME" value="week_1" />
       <option name="MAIN_CLASS_NAME" value="week_1.Question_5_ParcelDelivery_Test" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question_6_Windows10Upgrade_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Auto_Grader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_1" />
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_6_Windows10Upgrade_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question_6_Windows10Upgrade_Test.testWin10UpgradeCanUpgrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Auto_Grader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_1" />
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_6_Windows10Upgrade_Test" />
+      <option name="METHOD_NAME" value="testWin10UpgradeCanUpgrade" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,19 +392,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Question_4_Mail_Prices" />
       <item itemvalue="Application.Question_5_Parcel_Delivery" />
-      <item itemvalue="JUnit.Question_3_NASAAstronaut_Test" />
+      <item itemvalue="Application.Question_6_Windows_10_Install" />
+      <item itemvalue="JUnit.Question_6_Windows10Upgrade_Test" />
+      <item itemvalue="JUnit.Question_6_Windows10Upgrade_Test.testWin10UpgradeCanUpgrade" />
       <item itemvalue="JUnit.Question_5_ParcelDelivery_Test" />
-      <item itemvalue="JUnit.Question_4_MailPrices_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Question_6_Windows10Upgrade_Test" />
+        <item itemvalue="Application.Question_6_Windows_10_Install" />
+        <item itemvalue="JUnit.Question_6_Windows10Upgrade_Test.testWin10UpgradeCanUpgrade" />
         <item itemvalue="JUnit.Question_5_ParcelDelivery_Test" />
         <item itemvalue="Application.Question_5_Parcel_Delivery" />
-        <item itemvalue="JUnit.Question_4_MailPrices_Test" />
-        <item itemvalue="Application.Question_4_Mail_Prices" />
-        <item itemvalue="JUnit.Question_3_NASAAstronaut_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +457,7 @@
       <workItem from="1631713606818" duration="234000" />
       <workItem from="1633011427648" duration="1504000" />
       <workItem from="1644532948874" duration="709000" />
-      <workItem from="1769644116355" duration="6167000" />
+      <workItem from="1769644116355" duration="7068000" />
     </task>
     <task id="LOCAL-00001" summary="Comments">
       <created>1496164236471</created>
@@ -741,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769661049869</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finished question 5">
+      <option name="closed" value="true" />
+      <created>1769661336470</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1769661336470</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
