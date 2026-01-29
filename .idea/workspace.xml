@@ -127,7 +127,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Question_1_MilesFromMCTC_Test">
+  <component name="RunManager" selected="Application.Question_1_Miles_From_MCTC">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -398,8 +398,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Question_1_MilesFromMCTC_Test" />
         <item itemvalue="Application.Question_1_Miles_From_MCTC" />
+        <item itemvalue="JUnit.Question_1_MilesFromMCTC_Test" />
         <item itemvalue="JUnit.week_1 in Java Auto Grader Wk 1" />
         <item itemvalue="JUnit.Question_4_MailPrices_Test" />
         <item itemvalue="JUnit.Question_4_MailPrices_Test.testCalculateStampPriceUsesConstants" />

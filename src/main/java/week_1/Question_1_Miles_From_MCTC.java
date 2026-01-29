@@ -45,6 +45,7 @@ public class Question_1_Miles_From_MCTC {
             return "You live less than 10 miles away from MCTC.";
         }
     }
+
     
     
 }
