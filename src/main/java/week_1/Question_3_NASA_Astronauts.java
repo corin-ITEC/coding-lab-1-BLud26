@@ -45,10 +45,10 @@ public class Question_3_NASA_Astronauts {
 
         // TODO remove this line and replace with your own code
 
-        if (height >= 58 && height <= 76 && swimDistance >= 75) {
-            return true;
+        if (height >= 58 && height <= 76 && swimDistance >= 75) { // Setting the specific range and type of requirements
+            return true; // this will cause it to print, "You have astronaut potential!"
         } else {
-            return false;
+            return false; // This will cause it to print, "Sorry, you don't meet NASA's requirements."
         }
 
 

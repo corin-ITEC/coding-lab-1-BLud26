@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 2">
+    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_2_Quiz_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_2_Quiz_Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_3_NASA_Astronauts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_3_NASA_Astronauts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_4_Mail_Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_4_Mail_Prices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +98,10 @@
     "Application.Question_1_Miles_From_MCTC.executor": "Run",
     "Application.Question_2_Quiz_Question.executor": "Run",
     "Application.Question_3_NASA_Astronauts.executor": "Run",
+    "Application.Question_4_Mail_Prices.executor": "Run",
     "JUnit.Question_1_MilesFromMCTC_Test.executor": "Run",
     "JUnit.Question_2_QuizQuestion_Test.executor": "Run",
+    "JUnit.Question_3_NASAAstronaut_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -123,7 +127,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Question_3_NASAAstronaut_Test">
+  <component name="RunManager" selected="JUnit.Question_4_MailPrices_Test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -270,36 +274,22 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="Question_1_Miles_From_MCTC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_1_Miles_From_MCTC" />
-      <module name="Java_Auto_Grader" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_2_Quiz_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_2_Quiz_Question" />
-      <module name="Java_Auto_Grader" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question_3_NASA_Astronauts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week_1.Question_3_NASA_Astronauts" />
+      <module name="Java_Auto_Grader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question_4_Mail_Prices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_Mail_Prices" />
       <module name="Java_Auto_Grader" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -350,6 +340,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question_4_MailPrices_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Auto_Grader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_1" />
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_MailPrices_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -382,19 +388,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Question_1_Miles_From_MCTC" />
-      <item itemvalue="Application.Question_2_Quiz_Question" />
       <item itemvalue="Application.Question_3_NASA_Astronauts" />
+      <item itemvalue="Application.Question_4_Mail_Prices" />
       <item itemvalue="JUnit.Question_2_QuizQuestion_Test" />
       <item itemvalue="JUnit.Question_3_NASAAstronaut_Test" />
+      <item itemvalue="JUnit.Question_4_MailPrices_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Question_4_MailPrices_Test" />
+        <item itemvalue="Application.Question_4_Mail_Prices" />
         <item itemvalue="JUnit.Question_3_NASAAstronaut_Test" />
         <item itemvalue="Application.Question_3_NASA_Astronauts" />
         <item itemvalue="JUnit.Question_2_QuizQuestion_Test" />
-        <item itemvalue="Application.Question_2_Quiz_Question" />
-        <item itemvalue="Application.Question_1_Miles_From_MCTC" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +453,7 @@
       <workItem from="1631713606818" duration="234000" />
       <workItem from="1633011427648" duration="1504000" />
       <workItem from="1644532948874" duration="709000" />
-      <workItem from="1769644116355" duration="2566000" />
+      <workItem from="1769644116355" duration="4308000" />
     </task>
     <task id="LOCAL-00001" summary="Comments">
       <created>1496164236471</created>
@@ -711,7 +717,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769657191881</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Finished question 3">
+      <option name="closed" value="true" />
+      <created>1769657822001</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1769657822001</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +752,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Renamed test package" />
     <MESSAGE value="Added test file names to grade schema" />
     <MESSAGE value="Week 1 questions .md" />
     <MESSAGE value="Question 0" />
@@ -763,7 +776,8 @@
     <MESSAGE value="Renumber test file name" />
     <MESSAGE value="finishes question 1" />
     <MESSAGE value="Finished question 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished question 2" />
+    <MESSAGE value="Finished question 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished question 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

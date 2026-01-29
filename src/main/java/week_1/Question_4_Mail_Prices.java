@@ -1,5 +1,7 @@
 package week_1;
 
+import java.nio.channels.NonWritableChannelException;
+
 import static input.InputUtils.yesNoInput;
 
 /**
@@ -62,9 +64,13 @@ public class Question_4_Mail_Prices {
         */
 
         //TODO delete this line and replace with your own code
-        return 0;   // This is the wrong answer, but Java requires us to return something.
-
+        int price = MACHINABLE_LETTER_PRICE; // This will make price equal 49
+        if (isRectangle == false || isFlat == false) { // if either of these were false from the booleans above, there needs to be a surcharge
+            price += NON_MACHINABLE_SURCHARGE ; // This means price = price + NON_MACHINABLE_SURCHARGE
+        }
+   return price; // returns the base 49 cents plus the surcharge if applicable
     }
+
     
   
 }
