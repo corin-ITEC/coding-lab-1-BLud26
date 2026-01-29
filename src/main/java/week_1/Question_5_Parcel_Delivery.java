@@ -50,11 +50,11 @@ public class Question_5_Parcel_Delivery {
         // TODO return true if the parcel weight is more than 0 and less than or equal to MAX_WEIGHT. Use the MAX_WEIGHT variable in this code
 
         if (weight <= 0) {
-            return false;
+            return false; // Can't have a package that doesn't weigh anything
         }
         if (weight > MAX_WEIGHT) {
-            return false;
-        } else return true;
+            return false; // Can't allow a package to exceed maximum
+        } else return true; // Anything else would mean it's within valid weight range
     }
     
     
@@ -72,6 +72,7 @@ public class Question_5_Parcel_Delivery {
         // For example, for a 15 pound parcel, the weight variable will be 15. The price rate is 1.55 per pound (up to and including 20 pounds)
         // So the price is 15 * 1.55 = 23.25.
 
+        // Setting prices for ranges of weight
         if (weight <= 10) {
             return weight * 2.15;
         } else if (weight <= 20) {

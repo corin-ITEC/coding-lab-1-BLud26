@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 5">
       <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_5_Parcel_Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_5_Parcel_Delivery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -454,7 +453,7 @@
       <workItem from="1631713606818" duration="234000" />
       <workItem from="1633011427648" duration="1504000" />
       <workItem from="1644532948874" duration="709000" />
-      <workItem from="1769644116355" duration="5825000" />
+      <workItem from="1769644116355" duration="6167000" />
     </task>
     <task id="LOCAL-00001" summary="Comments">
       <created>1496164236471</created>
@@ -734,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769659633611</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Finished question 5">
+      <option name="closed" value="true" />
+      <created>1769661049869</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1769661049869</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +768,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Week 1 questions .md" />
     <MESSAGE value="Question 0" />
     <MESSAGE value="Added questions from lab 2 and 0" />
     <MESSAGE value="grades JSON" />
@@ -786,7 +792,8 @@
     <MESSAGE value="Finished question 2" />
     <MESSAGE value="Finished question 3" />
     <MESSAGE value="Finished question 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished question 4" />
+    <MESSAGE value="Finished question 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished question 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
