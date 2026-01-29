@@ -22,16 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Renumber test file name">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__edu_minneapolis_input_utils_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="finishes question 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Auto Grader Wk 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_1_Miles_From_MCTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_1_Miles_From_MCTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_2_Quiz_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_2_Quiz_Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +94,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Question_1_Miles_From_MCTC.executor": "Run",
+    "Application.Question_2_Quiz_Question.executor": "Run",
     "JUnit.Question_1_MilesFromMCTC_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -127,7 +121,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question_1_Miles_From_MCTC">
+  <component name="RunManager" selected="JUnit.Question_2_QuizQuestion_Test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -288,6 +282,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question_2_Quiz_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_2_Quiz_Question" />
+      <module name="Java_Auto_Grader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -310,8 +318,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_4_MailPrices_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Auto Grader Wk 1" />
+    <configuration name="Question_2_QuizQuestion_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Auto_Grader" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week_1.*" />
@@ -319,25 +327,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week_1" />
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_MailPrices_Test" />
+      <option name="MAIN_CLASS_NAME" value="week_1.Question_2_QuizQuestion_Test" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_4_MailPrices_Test.testCalculateStampPriceUsesConstants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Auto Grader Wk 1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week_1" />
-      <option name="MAIN_CLASS_NAME" value="week_1.Question_4_MailPrices_Test" />
-      <option name="METHOD_NAME" value="testCalculateStampPriceUsesConstants" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -391,18 +382,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Question_1_Miles_From_MCTC" />
+      <item itemvalue="Application.Question_2_Quiz_Question" />
       <item itemvalue="JUnit.Question_1_MilesFromMCTC_Test" />
-      <item itemvalue="JUnit.Question_4_MailPrices_Test.testCalculateStampPriceUsesConstants" />
-      <item itemvalue="JUnit.Question_4_MailPrices_Test" />
+      <item itemvalue="JUnit.Question_2_QuizQuestion_Test" />
       <item itemvalue="JUnit.week_1 in Java Auto Grader Wk 1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Question_2_QuizQuestion_Test" />
+        <item itemvalue="Application.Question_2_Quiz_Question" />
         <item itemvalue="Application.Question_1_Miles_From_MCTC" />
         <item itemvalue="JUnit.Question_1_MilesFromMCTC_Test" />
         <item itemvalue="JUnit.week_1 in Java Auto Grader Wk 1" />
-        <item itemvalue="JUnit.Question_4_MailPrices_Test" />
-        <item itemvalue="JUnit.Question_4_MailPrices_Test.testCalculateStampPriceUsesConstants" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +446,7 @@
       <workItem from="1631713606818" duration="234000" />
       <workItem from="1633011427648" duration="1504000" />
       <workItem from="1644532948874" duration="709000" />
-      <workItem from="1769644116355" duration="1132000" />
+      <workItem from="1769644116355" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="Comments">
       <created>1496164236471</created>
@@ -695,7 +686,23 @@
       <option name="project" value="LOCAL" />
       <updated>1633012847595</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Renumber test file name">
+      <option name="closed" value="true" />
+      <created>1769656329998</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1769656329998</updated>
+    </task>
+    <task id="LOCAL-00036" summary="finishes question 1">
+      <option name="closed" value="true" />
+      <created>1769656399973</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1769656399973</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +729,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Comments" />
     <MESSAGE value="Class checklist" />
     <MESSAGE value="Renamed test package" />
     <MESSAGE value="Added test file names to grade schema" />
@@ -739,7 +745,6 @@
     <MESSAGE value="New intellij" />
     <MESSAGE value="Initial file open" />
     <MESSAGE value="Java 11" />
-    <MESSAGE value="Renumber test file name" />
     <MESSAGE value="cleanup, consistent naming for constants" />
     <MESSAGE value="Include link to relevant part of ebook" />
     <MESSAGE value="New quiz question" />
@@ -747,7 +752,9 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="Clarify instructions, provide example, more tests for non-integer weights and larger example MAX_WEIGHT" />
     <MESSAGE value="Split tests into more smaller tests, ensure using global variables in code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split tests into more smaller tests, ensure using global variables in code" />
+    <MESSAGE value="Renumber test file name" />
+    <MESSAGE value="finishes question 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishes question 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
