@@ -45,7 +45,11 @@ public class Question_3_NASA_Astronauts {
 
         // TODO remove this line and replace with your own code
 
-        return false;
+        if (height >= 58 && height <= 76 && swimDistance >= 75) {
+            return true;
+        } else {
+            return false;
+        }
 
 
     }
